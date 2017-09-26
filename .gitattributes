@@ -1,1 +1,3 @@
 *.h linguist-language=swift
+*.a linguist-language=swift
+
