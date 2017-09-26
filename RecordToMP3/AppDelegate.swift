@@ -15,7 +15,10 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
-        // Override point for customization after application launch.
+        
+        let ctrl = RecordViewController()
+        let navCtrl = UINavigationController(rootViewController: ctrl)
+        window?.rootViewController = navCtrl
         return true
     }
 

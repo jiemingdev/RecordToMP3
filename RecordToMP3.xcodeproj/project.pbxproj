@@ -7,6 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D216A4340BBBA16415FF39B5 /* Pods_RecordToMP3.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 83F318D1838E8C51C26F741B /* Pods_RecordToMP3.framework */; };
+		E925BC3E1F789A5900A95F3A /* DBManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = E925BC3D1F789A5900A95F3A /* DBManager.swift */; };
+		E925BC401F78A6E300A95F3A /* RecordModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E925BC3F1F78A6E300A95F3A /* RecordModel.swift */; };
+		E925BC431F78D70900A95F3A /* Category.swift in Sources */ = {isa = PBXBuildFile; fileRef = E925BC421F78D70900A95F3A /* Category.swift */; };
+		E925BC4B1F78EE8D00A95F3A /* TransformMP3.m in Sources */ = {isa = PBXBuildFile; fileRef = E925BC4A1F78EE8D00A95F3A /* TransformMP3.m */; };
+		E925BC4C1F78F81A00A95F3A /* libmp3lame.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E925BC441F78E54000A95F3A /* libmp3lame.a */; };
 		E95B97541F70B10D001DBC26 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E95B97531F70B10D001DBC26 /* AppDelegate.swift */; };
 		E95B97561F70B10D001DBC26 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E95B97551F70B10D001DBC26 /* ViewController.swift */; };
 		E95B97591F70B10D001DBC26 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E95B97571F70B10D001DBC26 /* Main.storyboard */; };
@@ -14,6 +20,9 @@
 		E95B975E1F70B10D001DBC26 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E95B975C1F70B10D001DBC26 /* LaunchScreen.storyboard */; };
 		E95B97691F70B10D001DBC26 /* RecordToMP3Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E95B97681F70B10D001DBC26 /* RecordToMP3Tests.swift */; };
 		E95B97741F70B10D001DBC26 /* RecordToMP3UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E95B97731F70B10D001DBC26 /* RecordToMP3UITests.swift */; };
+		E95B978B1F70B2F3001DBC26 /* RecordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E95B978A1F70B2F3001DBC26 /* RecordViewController.swift */; };
+		E95B978D1F70B411001DBC26 /* RecordListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E95B978C1F70B411001DBC26 /* RecordListViewController.swift */; };
+		E95B978F1F70B52E001DBC26 /* Record.swift in Sources */ = {isa = PBXBuildFile; fileRef = E95B978E1F70B52E001DBC26 /* Record.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +43,17 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		49B9C2369B7EF732B3B6D84B /* Pods-RecordToMP3.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RecordToMP3.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RecordToMP3/Pods-RecordToMP3.debug.xcconfig"; sourceTree = "<group>"; };
+		83F318D1838E8C51C26F741B /* Pods_RecordToMP3.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RecordToMP3.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C4EC40F8392C4C1BB3AD85EC /* Pods-RecordToMP3.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RecordToMP3.release.xcconfig"; path = "Pods/Target Support Files/Pods-RecordToMP3/Pods-RecordToMP3.release.xcconfig"; sourceTree = "<group>"; };
+		E925BC381F7895B300A95F3A /* BridgeThird.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BridgeThird.h; sourceTree = "<group>"; };
+		E925BC3D1F789A5900A95F3A /* DBManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DBManager.swift; sourceTree = "<group>"; };
+		E925BC3F1F78A6E300A95F3A /* RecordModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecordModel.swift; sourceTree = "<group>"; };
+		E925BC421F78D70900A95F3A /* Category.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Category.swift; sourceTree = "<group>"; };
+		E925BC441F78E54000A95F3A /* libmp3lame.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libmp3lame.a; sourceTree = "<group>"; };
+		E925BC451F78E54D00A95F3A /* lame.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = lame.h; sourceTree = "<group>"; };
+		E925BC491F78EE8D00A95F3A /* TransformMP3.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TransformMP3.h; sourceTree = "<group>"; };
+		E925BC4A1F78EE8D00A95F3A /* TransformMP3.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TransformMP3.m; sourceTree = "<group>"; };
 		E95B97501F70B10D001DBC26 /* RecordToMP3.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RecordToMP3.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E95B97531F70B10D001DBC26 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E95B97551F70B10D001DBC26 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +67,9 @@
 		E95B976F1F70B10D001DBC26 /* RecordToMP3UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RecordToMP3UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E95B97731F70B10D001DBC26 /* RecordToMP3UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecordToMP3UITests.swift; sourceTree = "<group>"; };
 		E95B97751F70B10D001DBC26 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E95B978A1F70B2F3001DBC26 /* RecordViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecordViewController.swift; sourceTree = "<group>"; };
+		E95B978C1F70B411001DBC26 /* RecordListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecordListViewController.swift; sourceTree = "<group>"; };
+		E95B978E1F70B52E001DBC26 /* Record.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Record.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +77,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E925BC4C1F78F81A00A95F3A /* libmp3lame.a in Frameworks */,
+				D216A4340BBBA16415FF39B5 /* Pods_RecordToMP3.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -74,6 +99,50 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		7FA8BB0F6E6A7DDB13D80B1E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				49B9C2369B7EF732B3B6D84B /* Pods-RecordToMP3.debug.xcconfig */,
+				C4EC40F8392C4C1BB3AD85EC /* Pods-RecordToMP3.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		86CC3F3005ADAB6609C17EF9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				83F318D1838E8C51C26F741B /* Pods_RecordToMP3.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E925BC391F7896D200A95F3A /* Library */ = {
+			isa = PBXGroup;
+			children = (
+				E925BC451F78E54D00A95F3A /* lame.h */,
+				E925BC441F78E54000A95F3A /* libmp3lame.a */,
+				E925BC3D1F789A5900A95F3A /* DBManager.swift */,
+			);
+			path = Library;
+			sourceTree = "<group>";
+		};
+		E925BC411F78D69800A95F3A /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				E925BC421F78D70900A95F3A /* Category.swift */,
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
+		E925BC481F78EE7700A95F3A /* OC */ = {
+			isa = PBXGroup;
+			children = (
+				E925BC491F78EE8D00A95F3A /* TransformMP3.h */,
+				E925BC4A1F78EE8D00A95F3A /* TransformMP3.m */,
+			);
+			path = OC;
+			sourceTree = "<group>";
+		};
 		E95B97471F70B10D001DBC26 = {
 			isa = PBXGroup;
 			children = (
@@ -81,6 +150,8 @@
 				E95B97671F70B10D001DBC26 /* RecordToMP3Tests */,
 				E95B97721F70B10D001DBC26 /* RecordToMP3UITests */,
 				E95B97511F70B10D001DBC26 /* Products */,
+				7FA8BB0F6E6A7DDB13D80B1E /* Pods */,
+				86CC3F3005ADAB6609C17EF9 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -97,12 +168,15 @@
 		E95B97521F70B10D001DBC26 /* RecordToMP3 */ = {
 			isa = PBXGroup;
 			children = (
+				E95B97831F70B1D8001DBC26 /* Demo */,
 				E95B97531F70B10D001DBC26 /* AppDelegate.swift */,
 				E95B97551F70B10D001DBC26 /* ViewController.swift */,
 				E95B97571F70B10D001DBC26 /* Main.storyboard */,
 				E95B975A1F70B10D001DBC26 /* Assets.xcassets */,
 				E95B975C1F70B10D001DBC26 /* LaunchScreen.storyboard */,
 				E95B975F1F70B10D001DBC26 /* Info.plist */,
+				E95B978E1F70B52E001DBC26 /* Record.swift */,
+				E925BC381F7895B300A95F3A /* BridgeThird.h */,
 			);
 			path = RecordToMP3;
 			sourceTree = "<group>";
@@ -125,6 +199,43 @@
 			path = RecordToMP3UITests;
 			sourceTree = "<group>";
 		};
+		E95B97831F70B1D8001DBC26 /* Demo */ = {
+			isa = PBXGroup;
+			children = (
+				E925BC481F78EE7700A95F3A /* OC */,
+				E925BC411F78D69800A95F3A /* Category */,
+				E925BC391F7896D200A95F3A /* Library */,
+				E95B97841F70B1D8001DBC26 /* Controller */,
+				E95B97861F70B1D8001DBC26 /* Model */,
+				E95B97871F70B1D8001DBC26 /* View */,
+			);
+			path = Demo;
+			sourceTree = "<group>";
+		};
+		E95B97841F70B1D8001DBC26 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				E95B978A1F70B2F3001DBC26 /* RecordViewController.swift */,
+				E95B978C1F70B411001DBC26 /* RecordListViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		E95B97861F70B1D8001DBC26 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				E925BC3F1F78A6E300A95F3A /* RecordModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		E95B97871F70B1D8001DBC26 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -132,9 +243,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = E95B97781F70B10D001DBC26 /* Build configuration list for PBXNativeTarget "RecordToMP3" */;
 			buildPhases = (
+				2A815DD024A14CCB07CA5B27 /* [CP] Check Pods Manifest.lock */,
 				E95B974C1F70B10D001DBC26 /* Sources */,
 				E95B974D1F70B10D001DBC26 /* Frameworks */,
 				E95B974E1F70B10D001DBC26 /* Resources */,
+				EFE6E927637B6E3CF8A04CD9 /* [CP] Embed Pods Frameworks */,
+				30C78955524C466B95E02D4C /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -251,13 +365,68 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		2A815DD024A14CCB07CA5B27 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		30C78955524C466B95E02D4C /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RecordToMP3/Pods-RecordToMP3-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EFE6E927637B6E3CF8A04CD9 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RecordToMP3/Pods-RecordToMP3-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		E95B974C1F70B10D001DBC26 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				E95B97561F70B10D001DBC26 /* ViewController.swift in Sources */,
+				E95B978F1F70B52E001DBC26 /* Record.swift in Sources */,
 				E95B97541F70B10D001DBC26 /* AppDelegate.swift in Sources */,
+				E925BC401F78A6E300A95F3A /* RecordModel.swift in Sources */,
+				E95B978D1F70B411001DBC26 /* RecordListViewController.swift in Sources */,
+				E95B978B1F70B2F3001DBC26 /* RecordViewController.swift in Sources */,
+				E925BC3E1F789A5900A95F3A /* DBManager.swift in Sources */,
+				E925BC4B1F78EE8D00A95F3A /* TransformMP3.m in Sources */,
+				E925BC431F78D70900A95F3A /* Category.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -417,12 +586,20 @@
 		};
 		E95B97791F70B10D001DBC26 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 49B9C2369B7EF732B3B6D84B /* Pods-RecordToMP3.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 6QTUD7QL8B;
 				INFOPLIST_FILE = RecordToMP3/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/RecordToMP3/Demo/Library",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = jieming.RecordToMP3;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = /Users/zhouxin/Desktop/RecordToMP3/RecordToMP3/BridgeThird.h;
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -430,12 +607,20 @@
 		};
 		E95B977A1F70B10D001DBC26 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C4EC40F8392C4C1BB3AD85EC /* Pods-RecordToMP3.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 6QTUD7QL8B;
 				INFOPLIST_FILE = RecordToMP3/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/RecordToMP3/Demo/Library",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = jieming.RecordToMP3;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = /Users/zhouxin/Desktop/RecordToMP3/RecordToMP3/BridgeThird.h;
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -518,6 +703,7 @@
 				E95B977A1F70B10D001DBC26 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		E95B977B1F70B10D001DBC26 /* Build configuration list for PBXNativeTarget "RecordToMP3Tests" */ = {
 			isa = XCConfigurationList;
@@ -526,6 +712,7 @@
 				E95B977D1F70B10D001DBC26 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		E95B977E1F70B10D001DBC26 /* Build configuration list for PBXNativeTarget "RecordToMP3UITests" */ = {
 			isa = XCConfigurationList;
@@ -534,6 +721,7 @@
 				E95B97801F70B10D001DBC26 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
